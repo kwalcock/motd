@@ -1,0 +1,41 @@
+*.class
+*.log
+
+.idea
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# this file is created by scala-metals (a scala language server) 
+.metals
+project/metals.sbt
+
+# vim swap files
+*.swp
+
+# ctags
+tags
+.tags
+
+# bloop build server
+.bloop
+
+# docs
+docs/.jekyll-cache/
+docs/.sass-cache/
+
+# scala formater
+.scalafmt.conf
+
+# plugins
+core/lib/*
